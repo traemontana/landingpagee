@@ -1,1 +1,1 @@
-# landingpagee
+landing page where I try to make it from scratch and try to fix my issues with git
