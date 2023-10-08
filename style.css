@@ -27,13 +27,14 @@ a{
     color: white;
 }
 
-ul{
+.nav{
     display: flex;
     list-style: none;
     align-items: center;
     gap: 16px;
     margin-right: 400px;
     flex-shrink: 0;
+    margin-top: 25px;
 }
 /* this is the end of the heading css */
 
@@ -92,7 +93,51 @@ h2{
 
 .characters{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: -40px;
+}
+
+
+.favorites{
+    display: flex;
+    justify-content: space-evenly;
+}
+h5{
+    color: grey;
+    width: 100px;
+}
+/* im gonna skip the images and come back to this when I get back on my pc */
+
+.quote{
+    display: flex;
+    flex: 1;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+h4{
+    width: 600px;
+    font-size: 26px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h6{
+    font-size: 26px;
+    margin-top: -80px;
+    background-color: #e5e7eb;
+    margin-left: 795px;
+    font-style: italic;
+    display: flex;
+}
+
+/* this is the end of the rengoku quote */
+
+.action{
+    display: flex;
+background-color: #3882f6;
 }
 
