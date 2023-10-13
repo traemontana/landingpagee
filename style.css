@@ -91,12 +91,33 @@ h2{
     font-size: 30px;
 }
 
-.characters{
+.characters-container{
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
     margin-top: -40px;
 }
 
+.character-img{
+    max-width: 70%;
+	border: 5px solid #3882F6;
+	border-radius: 15px;
+	margin-bottom: 2%;
+}
+
+.character{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.sizing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .favorites{
     display: flex;
@@ -106,6 +127,7 @@ h5{
     color: grey;
     width: 100px;
 }
+
 /* im gonna skip the images and come back to this when I get back on my pc */
 
 .quote{
@@ -137,7 +159,18 @@ h6{
 /* this is the end of the rengoku quote */
 
 .action{
-    display: flex;
 background-color: #3882f6;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 180px;
+margin-left: 400px;
+margin-right: 400px;
+border-radius: 10px;;
+min-width:max-content;
+
 }
 
+#dumb{
+    margin-bottom: 10px;
+}
